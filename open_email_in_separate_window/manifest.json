@@ -21,7 +21,7 @@
 
 
    "message_display_action": {
-     "default_title": "Popup"
+     "default_title": "Open email header..."
    },
    "manifest_version": 2
 }

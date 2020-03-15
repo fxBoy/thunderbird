@@ -2,6 +2,8 @@ function loadMessage(tabId) {
   browser.messageDisplay.getDisplayedMessage(tabId).then(
     function(val) {
       document.getElementById('author').innerHTML = val.author;
+      document.getElementById('subject').innerHTML = val.subject;
+      document.getElementById('date').innerHTML = val.date;
     }
   );
 };

@@ -1,0 +1,27 @@
+{
+  "name": "OpenEmailinWindow",
+   "description": "Open a email in a seperate window",
+   "version": "1.00a",
+   "developer": {
+     "name": "Stephan Raab",
+     "url": "https://www.gumara.de"
+   },
+   "applications": {
+     "gecko": {
+       "id": "openEmailinWindow@gumara.de"
+     }
+   },
+   "background": {
+     "scripts": [
+       "background.js"
+     ]
+   },
+
+ "permissions": ["activeTab","tabs","messagesRead"],
+
+
+   "message_display_action": {
+     "default_title": "Popup"
+   },
+   "manifest_version": 2
+}

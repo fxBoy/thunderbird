@@ -1,1 +1,1 @@
-# Open Email details in a seperate window
+# Open email header details in a separate window
